@@ -197,7 +197,7 @@
     <div class="container-fluid">
       <div class="row align-items-center w-100">
         <div class="col-8 col-md-3">
-          <a class="navbar-brand" href="index.html"><img src="images/logo.svg" width="204" height="46" alt="logo"></a>
+          <a class="navbar-brand" href="index.html"><img src="public/images/logo.svg" width="204" height="46" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -301,50 +301,257 @@
       </div>
     </div>
   </nav>
-
-  <section class="page-title mt-5 py-5">
-    <div class="container">
-      <div class="row">
-        <div class="d-flex flex-wrap flex-column justify-content-between align-items-center mt-5">
-          <h1 class="display-5 fw-bold">Seguimiento de su pedido</h1>
-          <nav class="breadcrumb">
-            <a class="breadcrumb-item" href="#">Inicio</a>
-            <a class="breadcrumb-item" href="#">Página</a>
-            <span class="breadcrumb-item active" aria-current="page">Seguimiento de su pedido</span>
-          </nav>
-        </div>
+  
+  <section class="mt-5 pt-5">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between align-items-center">
+        <h1 class="text-uppercase fs-3">Shop</h1>
+        <nav class="breadcrumb">
+          <a class="breadcrumb-item" href="#">Home</a>
+          <a class="breadcrumb-item" href="#">Pages</a>
+          <span class="breadcrumb-item active" aria-current="page">Shop</span>
+        </nav>
       </div>
     </div>
   </section>
-
-  <section id="order-tracking" class="py-5 my-5">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-6">
-          <h2>Seguimiento de pedidos</h2>
-          <p>Ingrese el número de su pedido y presione el botón “Seguimiento”. Este número se le proporcionó en su recibo y en el correo electrónico de confirmación que debería haber recibido.</p>
-          <form id="form" class="form-group">
-            <div class="col-12 pb-3">
-              <label>ID del pedido</label>
-              <input type="text" name="name" placeholder="Found in your order confirmation email" class="form-control">
-            </div>
-            <div class="col-12 pb-3">
-              <label>Correo electrónico de facturación</label>
-              <input type="text" name="email" placeholder="Email you used during checkout." class="form-control">
-            </div>
-            <div class="col-12">
-              <button type="submit" name="submit" class="btn btn-dark btn-lg w-100 text-uppercase">Seguimiento</button>
-            </div>
-          </form>
+  
+  <main class="main-content">
+    <section class="shopify-element py-5">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between py-1">
+          <div>
+            <span>Showing 1–12 of 55 results</span>
+          </div>
+          <div>
+            <select class="form-select border-0" aria-label="Default select example">
+              <option selected>Default Sorting</option>
+              <option value="1">Color</option>
+              <option value="2">Size</option>
+              <option value="3">Price</option>
+            </select>
+          </div>
         </div>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-1.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">Phone Cover 5.6 inches</a>
+                </h5>
+                <span>$95.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-2.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">Smart Phone 128GB RAM</a>
+                </h5>
+                <span class="text-secondary">$55.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-3.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">Smart Phone 128GB RAM</a>
+                </h5>
+                <span class="text-secondary">$55.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-4.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">Smart Phone 128GB RAM</a>
+                </h5>
+                <span class="text-secondary">$55.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-5.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">22 Inch LED Display</a>
+                </h5>
+                <span class="text-secondary">$65.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-6.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">Phone Cover 5.6 inches</a>
+                </h5>
+                <span class="text-secondary">$95.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-7.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">Smart Phone 128GB RAM</a>
+                </h5>
+                <span class="text-secondary">$55.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-8.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">Smart Phone 128GB RAM</a>
+                </h5>
+                <span class="text-secondary">$55.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-9.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">Smart Phone 128GB RAM</a>
+                </h5>
+                <span class="text-secondary">$55.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-10.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">22 Inch LED Display</a>
+                </h5>
+                <span class="text-secondary">$65.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-11.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">Smart Phone 128GB RAM</a>
+                </h5>
+                <span class="text-secondary">$55.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="product-item hover-effect-slide">
+              <div class="image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="public/images/product-thumbnail-12.jpg" alt="categories" class="product-image img-fluid">
+                </a>
+                <a href="#" class="btn btn-primary w-100 mt-2 rounded-1">Add to cart</a>
+              </div>
+              <div class="product-content">
+                <h5 class="mt-3">
+                  <a href="single-product.html">22 Inch LED Display</a>
+                </h5>
+                <span class="text-secondary">$65.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav aria-label="Page navigation" class="d-flex justify-content-center mt-5">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <i class="icon icon-arrow-left"></i>
+              </a>
+            </li>
+            <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <i class="icon icon-arrow-right"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </div> 
-  </section>
-
+    </section>
+  </main>
+  
   <section class="newsletter bg-black">
     <div class="container-fluid">
       <div class="newsletter jarallax">
-        <img src="images/bg-newsletter.jpg" alt="newsletter" class="jarallax-img">
+        <img src="public/images/bg-newsletter.jpg" alt="newsletter" class="jarallax-img">
       
         <div class="row py-5 justify-content-center">
           <div class="col-md-6">
@@ -378,7 +585,7 @@
           <div class="footer-menu footer-menu-001">
             <div class="footer-intro mb-4">
               <a href="index.html">
-                <img src="images/logo.svg" alt="logo">
+                <img src="public/images/logo.svg" alt="logo">
               </a>
             </div>
             <p> Es una tienda especializada en productos electrónicos y tecnológicos de última generación. Nos dedicamos a ofrecer una amplia gama de dispositivos.</p>

@@ -300,7 +300,7 @@ if(isset($_POST['name'])) {
       <div class="row justify-content-between w-100">
 
         <div class="col-auto">
-          <a class="navbar-brand" href="index.html"><img src="images/logo.svg" width="100" height="45" alt="logo"></a>
+          <a class="navbar-brand" href="index.html"><img src="public/images/logo.svg" width="100" height="45" alt="logo"></a>
         </div>
 
         <div class="col-auto">
@@ -519,7 +519,7 @@ if(isset($_POST['name'])) {
     </div>
   </section>
 
-  <section class="bg-light" style="background: url(images/pattern-bg.png) no-repeat;">
+  <section class="bg-light" style="background: url(public/images/pattern-bg.png) no-repeat;">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 py-5 my-5">
@@ -542,42 +542,42 @@ if(isset($_POST['name'])) {
         <div class="col-6 col-sm-4 col-md-2">
           <div class="insta-item">
             <a href="https://www.instagram.com/templatesjungle.design/" target="_blank">
-              <img src="images/insta-item1.jpg" alt="instagram" class="insta-image img-fluid">
+              <img src="public/images/insta-item1.jpg" alt="instagram" class="insta-image img-fluid">
             </a>
           </div>
         </div>
         <div class="col-6 col-sm-4 col-md-2">
           <div class="insta-item">
             <a href="https://www.instagram.com/templatesjungle.design/" target="_blank">
-              <img src="images/insta-item2.jpg" alt="instagram" class="insta-image img-fluid">
+              <img src="public/images/insta-item2.jpg" alt="instagram" class="insta-image img-fluid">
             </a>
           </div>
         </div>
         <div class="col-6 col-sm-4 col-md-2">
           <div class="insta-item">
             <a href="https://www.instagram.com/templatesjungle.design/" target="_blank">
-              <img src="images/insta-item3.jpg" alt="instagram" class="insta-image img-fluid">
+              <img src="public/images/insta-item3.jpg" alt="instagram" class="insta-image img-fluid">
             </a>
           </div>
         </div>
         <div class="col-6 col-sm-4 col-md-2">
           <div class="insta-item">
             <a href="https://www.instagram.com/templatesjungle.design/" target="_blank">
-              <img src="images/insta-item4.jpg" alt="instagram" class="insta-image img-fluid">
+              <img src="public/images/insta-item4.jpg" alt="instagram" class="insta-image img-fluid">
             </a>
           </div>
         </div>
         <div class="col-6 col-sm-4 col-md-2">
           <div class="insta-item">
             <a href="https://www.instagram.com/templatesjungle.design/" target="_blank">
-              <img src="images/insta-item5.jpg" alt="instagram" class="insta-image img-fluid">
+              <img src="public/images/insta-item5.jpg" alt="instagram" class="insta-image img-fluid">
             </a>
           </div>
         </div>
         <div class="col-6 col-sm-4 col-md-2">
           <div class="insta-item">
             <a href="https://www.instagram.com/templatesjungle.design/" target="_blank">
-              <img src="images/insta-item6.jpg" alt="instagram" class="insta-image img-fluid">
+              <img src="public/images/insta-item6.jpg" alt="instagram" class="insta-image img-fluid">
             </a>
           </div>
         </div>
@@ -592,7 +592,7 @@ if(isset($_POST['name'])) {
           <div class="footer-menu footer-menu-001">
             <div class="footer-intro mb-4">
               <a href="index.html">
-                <img src="images/logo.svg" alt="logo">
+                <img src="public/images/logo.svg" alt="logo">
               </a>
             </div>
             <p>Gravida massa volutpat aenean odio. Amet, turpis erat nullam fringilla elementum diam in. Nisi, purus
@@ -703,14 +703,14 @@ if(isset($_POST['name'])) {
           <div class="col-md-6 d-flex flex-wrap">
             <div class="shipping">
               <span>We ship with:</span>
-              <img src="images/arct-icon.png" alt="icon">
-              <img src="images/dhl-logo.png" alt="icon">
+              <img src="public/images/arct-icon.png" alt="icon">
+              <img src="public/images/dhl-logo.png" alt="icon">
             </div>
             <div class="payment-option">
               <span>Payment Option:</span>
-              <img src="images/visa-card.png" alt="card">
-              <img src="images/paypal-card.png" alt="card">
-              <img src="images/master-card.png" alt="card">
+              <img src="public/images/visa-card.png" alt="card">
+              <img src="public/images/paypal-card.png" alt="card">
+              <img src="public/images/master-card.png" alt="card">
             </div>
           </div>
           <div class="col-md-6 text-start text-md-end">

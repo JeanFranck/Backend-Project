@@ -197,7 +197,7 @@
     <div class="container-fluid">
       <div class="row align-items-center w-100">
         <div class="col-8 col-md-3">
-          <a class="navbar-brand" href="index.html"><img src="images/logo.svg" width="204" height="46" alt="logo"></a>
+          <a class="navbar-brand" href="index.html"><img src="public/images/logo.svg" width="204" height="46" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -302,36 +302,126 @@
     </div>
   </nav>
 
-  <section id="login-form" class="py-5 my-5">
-    <div class="container-sm">
-      <div class="row justify-content-center">
-        <div class="col-md-4">
-          <div class="breadcrumbs pt-5 my-5">
-            <span class="item"><a href="index.html">Inicio /</a></span>
-            <span class="item">Mi cuenta</span>
+  <section class="hero-section bg-light py-4">
+    <div class="hero-content">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <div class="breadcrumbs">
+              <span class="item">
+                <a href="index.html">Home /</a>
+              </span>
+              <span class="item">Wishlist</span>
+            </div>
           </div>
-          <h2 class="section-title text-uppercase">Login</h2>
-          <form id="form" class="form-group flex-wrap">
-            <div class="col-12 pb-3">
-              <label>Nombre de usuario / correo electrónico *</label>
-              <input type="text" name="name" placeholder="Write your username / email address here"
-                class="form-control">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Wishlist" class="py-5 my-5">
+    <div class="container">
+      <div class="row my-3">
+        <div class="col-5 text-uppercase">Product</div>
+        <div class="col-2 text-uppercase">Unit Price</div>
+        <div class="col-2 text-uppercase">Stock Status</div>
+      </div>
+      <div class="product-wrapper">
+        <div class="product-item row align-items-center mb-3 border-bottom">
+          <div class="col-4 col-md-1 d-flex align-items-center text-left">
+            <a href="#">
+              <img srcset="public/images/product-thumb-1.jpg" alt="wishlist" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-8 col-md-4">
+            <h3 class="item-title">
+              <a href="#">Handmade crop sweater</a>
+            </h3>
+          </div>
+          <div class="col-3 col-md-2 product-price text-left">
+            <span class="item-price">$54.99</span>
+          </div>
+          <div class="col-3 col-md-2 wishlist-stock text-left">
+            <span class="item-stock">In Stock</span>
+          </div>
+          <div class="col-3 col-md-2 wishlist-add text-left">
+            <form action="" method="post" class="variants">
+              <a class="btn btn-outline-dark text-uppercase" title="Add to Cart" href="#">Add To Cart</a>
+            </form>
+          </div>
+          <div class="col-3 col-md-1 text-left">
+            <div class="cart-remove">
+              <a href="#">
+                <svg width="32px">
+                  <use xlink:href="#trash"></use>
+                </svg>
+              </a>
             </div>
-            <div class="col-12 pb-3">
-              <label>Contraseña *</label>
-              <input type="text" name="email" placeholder="Enter your password" class="form-control">
+          </div>
+        </div>
+        <div class="product-item row align-items-center mb-3 border-bottom">
+          <div class="col-4 col-md-1 d-flex align-items-center text-left">
+            <a href="#">
+              <img srcset="public/images/product-thumb-2.jpg" alt="wishlist" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-8 col-md-4">
+            <h3 class="item-title">
+              <a href="#">Phone Cover 5.6 inches</a>
+            </h3>
+          </div>
+          <div class="col-3 col-md-2 product-price text-left">
+            <span class="item-price">$94.99</span>
+          </div>
+          <div class="col-3 col-md-2 wishlist-stock text-left">
+            <span class="item-stock">In Stock</span>
+          </div>
+          <div class="col-3 col-md-2 wishlist-add text-left">
+            <form action="" method="post" class="variants">
+              <a class="btn btn-outline-dark text-uppercase" title="Add to Cart" href="#">Add To Cart</a>
+            </form>
+          </div>
+          <div class="col-3 col-md-1 text-left">
+            <div class="cart-remove">
+              <a href="#">
+                <svg width="32px">
+                  <use xlink:href="#trash"></use>
+                </svg>
+              </a>
             </div>
-            <div class="col-12 pb-3">
-              <label>
-                <input type="checkbox" required="">
-                <span class="label-body">Recuérdame</span>
-              </label>
+          </div>
+        </div>
+        <div class="product-item row align-items-center mb-3 border-bottom">
+          <div class="col-4 col-md-1 d-flex align-items-center text-left">
+            <a href="#">
+              <img srcset="public/images/product-thumb-3.jpg" alt="wishlist" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-8 col-md-4">
+            <h3 class="item-title">
+              <a href="#">Smart Phone 128GB RAM</a>
+            </h3>
+          </div>
+          <div class="col-3 col-md-2 product-price text-left">
+            <span class="item-price">$54.99</span>
+          </div>
+          <div class="col-3 col-md-2 wishlist-stock text-left">
+            <span class="item-stock">In Stock</span>
+          </div>
+          <div class="col-3 col-md-2 wishlist-add text-left">
+            <form action="" method="post" class="variants">
+              <a class="btn btn-outline-dark text-uppercase" title="Add to Cart" href="#">Add To Cart</a>
+            </form>
+          </div>
+          <div class="col-3 col-md-1 text-left">
+            <div class="cart-remove">
+              <a href="#">
+                <svg width="32px">
+                  <use xlink:href="#trash"></use>
+                </svg>
+              </a>
             </div>
-            <div class="col-12">
-              <button type="submit" name="submit" class="btn btn-dark text-uppercase w-100">Iniciar sesión</button>
-              <p><a href="#" class="text-muted">¿Haz olvidado tu contraseña?</a></p>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
@@ -340,7 +430,7 @@
   <section class="newsletter bg-black">
     <div class="container-fluid">
       <div class="newsletter jarallax">
-        <img src="images/bg-newsletter.jpg" alt="newsletter" class="jarallax-img">
+        <img src="public/images/bg-newsletter.jpg" alt="newsletter" class="jarallax-img">
       
         <div class="row py-5 justify-content-center">
           <div class="col-md-6">
@@ -374,7 +464,7 @@
           <div class="footer-menu footer-menu-001">
             <div class="footer-intro mb-4">
               <a href="index.html">
-                <img src="images/logo.svg" alt="logo">
+                <img src="public/images/logo.svg" alt="logo">
               </a>
             </div>
             <p> Es una tienda especializada en productos electrónicos y tecnológicos de última generación. Nos dedicamos a ofrecer una amplia gama de dispositivos.</p>

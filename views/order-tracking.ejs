@@ -197,7 +197,7 @@
     <div class="container-fluid">
       <div class="row align-items-center w-100">
         <div class="col-8 col-md-3">
-          <a class="navbar-brand" href="index.html"><img src="images/logo.svg" width="204" height="46" alt="logo"></a>
+          <a class="navbar-brand" href="index.html"><img src="public/images/logo.svg" width="204" height="46" alt="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -306,202 +306,45 @@
     <div class="container">
       <div class="row">
         <div class="d-flex flex-wrap flex-column justify-content-between align-items-center mt-5">
-          <h1 class="display-5 fw-bold">Preguntas frecuentes</h1>
+          <h1 class="display-5 fw-bold">Seguimiento de su pedido</h1>
           <nav class="breadcrumb">
             <a class="breadcrumb-item" href="#">Inicio</a>
-            <a class="breadcrumb-item" href="#">Páginas</a>
-            <span class="breadcrumb-item active" aria-current="page">Preguntas frecuentes</span>
+            <a class="breadcrumb-item" href="#">Página</a>
+            <span class="breadcrumb-item active" aria-current="page">Seguimiento de su pedido</span>
           </nav>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="faqs-wrap py-5 no-padding-bottom">
+  <section id="order-tracking" class="py-5 my-5">
     <div class="container">
-      <div class="row g-5">
-        <main class="col-md-7">
-          <p>Encuentra respuestas rápidas a las consultas más comunes sobre cómo realizar pedidos, métodos de pago, política de devoluciones, tiempos de envío y más. Si no encuentras la información que buscas, no dudes en contactarnos para recibir asistencia personalizada.</p>
-          <div class="page-content">
-
-            <div class="accordion" id="accordion-box">
-              <div class="accordion-item mb-3">
-                <div class="accordion-header" id="heading-one">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
-                    <h3 class="accordion-title">¿Cómo pedir productos?</h3>
-                  </button>
-                </div>
-                <div id="collapse-one" class="accordion-collapse collapse show" aria-labelledby="heading-one">
-                  <div class="accordion-body">
-                    <div class="faqs-box">
-                      <div class="element-box margin-xsmall d-flex align-items-center">
-                        <div class="item-title">Puedes realizar tu pedido fácilmente a través de nuestra página web, seleccionando los productos que deseas y siguiendo los pasos del carrito de compras.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item mb-3">
-                <div class="accordion-header" id="heading-two">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-two" aria-expanded="true" aria-controls="collapse-two">
-                    <h3 class="accordion-title">¿Es obligatorio comprar online?</h3>
-                  </button>
-                </div>
-                <div id="collapse-two" class="accordion-collapse collapse" aria-labelledby="heading-two">
-                  <div class="accordion-body">
-                    <div class="faqs-box">
-                      <div class="element-box margin-xsmall d-flex align-items-center">
-                        <div class="item-title">No, también puedes visitarnos en nuestras tiendas físicas o contactarnos para hacer tu pedido por teléfono.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item mb-3">
-                <div class="accordion-header" id="heading-three">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-three" aria-expanded="true" aria-controls="collapse-three">
-                    <h3 class="accordion-title">¿Puedo obtener descuentos en los productos?</h3>
-                  </button>
-                </div>
-                <div id="collapse-three" class="accordion-collapse collapse" aria-labelledby="heading-three">
-                  <div class="accordion-body">
-                    <div class="faqs-box">
-                      <div class="element-box margin-xsmall d-flex align-items-center">
-                        <div class="item-title">Sí, ofrecemos descuentos en promociones especiales y para clientes suscritos a nuestro boletín. Revisa nuestras ofertas regularmente.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item mb-3">
-                <div class="accordion-header" id="heading-four">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-four" aria-expanded="true" aria-controls="collapse-four">
-                    <h3 class="accordion-title">¿Qué información debo proporcionar al realizar el pedido?</h3>
-                  </button>
-                </div>
-                <div id="collapse-four" class="accordion-collapse collapse" aria-labelledby="heading-four">
-                  <div class="accordion-body">
-                    <div class="faqs-box">
-                      <div class="element-box margin-xsmall d-flex align-items-center">
-                        <div class="item-title">Solo necesitas tus datos personales, dirección de envío y el método de pago. Asegúrate de verificar la información antes de finalizar el pedido.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item mb-3">
-                <div class="accordion-header" id="heading-five">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-five" aria-expanded="true" aria-controls="collapse-five">
-                    <h3 class="accordion-title">¿Puedo cancelar mi pedido?</h3>
-                  </button>
-                </div>
-                <div id="collapse-five" class="accordion-collapse collapse" aria-labelledby="heading-five">
-                  <div class="accordion-body">
-                    <div class="faqs-box">
-                      <div class="element-box margin-xsmall d-flex align-items-center">
-                        <div class="item-title">Sí, puedes cancelar tu pedido siempre y cuando no haya sido enviado. Contáctanos lo antes posible para gestionar la cancelación.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item mb-3">
-                <div class="accordion-header" id="heading-six">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-six" aria-expanded="true" aria-controls="collapse-six">
-                    <h3 class="accordion-title">¿Cuál es su política de devoluciones?</h3>
-                  </button>
-                </div>
-                <div id="collapse-six" class="accordion-collapse collapse" aria-labelledby="heading-six">
-                  <div class="accordion-body">
-                    <div class="faqs-box">
-                      <div class="element-box margin-xsmall d-flex align-items-center">
-                        <div class="item-title">Aceptamos devoluciones dentro de los primeros 30 días, siempre que el producto esté en su estado original. Consulta nuestra política completa en la web.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item mb-3">
-                <div class="accordion-header" id="heading-seven">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-seven" aria-expanded="true" aria-controls="collapse-seven">
-                    <h3 class="accordion-title">No he recibido mi pedido</h3>
-                  </button>
-                </div>
-                <div id="collapse-seven" class="accordion-collapse collapse" aria-labelledby="heading-seven">
-                  <div class="accordion-body">
-                    <div class="faqs-box">
-                      <div class="element-box margin-xsmall d-flex align-items-center">
-                        <div class="item-title">Si no has recibido tu pedido en el tiempo estimado, contáctanos con tu número de seguimiento y te ayudaremos a localizarlo.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item mb-3">
-                <div class="accordion-header" id="heading-eight">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-eight" aria-expanded="true" aria-controls="collapse-eight">
-                    <h3 class="accordion-title">¿Cómo se determina el costo de envío?</h3>
-                  </button>
-                </div>
-                <div id="collapse-eight" class="accordion-collapse collapse" aria-labelledby="heading-eight">
-                  <div class="accordion-body">
-                    <div class="faqs-box">
-                      <div class="element-box margin-xsmall d-flex align-items-center">
-                        <div class="item-title">El costo de envío se calcula según la ubicación y el peso del paquete. Puedes conocer el monto exacto al momento de finalizar tu compra.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item mb-3">
-                <div class="accordion-header" id="heading-nine">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-nine" aria-expanded="true" aria-controls="collapse-nine">
-                    <h3 class="accordion-title">¿Dónde se encuentra su tienda?</h3>
-                  </button>
-                </div>
-                <div id="collapse-nine" class="accordion-collapse collapse" aria-labelledby="heading-nine">
-                  <div class="accordion-body">
-                    <div class="faqs-box">
-                      <div class="element-box margin-xsmall d-flex align-items-center">
-                        <div class="item-title">Nuestra tienda principal está ubicada en Avenida José Larco A6, Miraflores, Lima, Perú. También puedes comprar online en nuestra web.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <h2>Seguimiento de pedidos</h2>
+          <p>Ingrese el número de su pedido y presione el botón “Seguimiento”. Este número se le proporcionó en su recibo y en el correo electrónico de confirmación que debería haber recibido.</p>
+          <form id="form" class="form-group">
+            <div class="col-12 pb-3">
+              <label>ID del pedido</label>
+              <input type="text" name="name" placeholder="Found in your order confirmation email" class="form-control">
             </div>
-          </div>
-        </main>
-        <div class="inquiry-item col-md-5">
-          <h3 class="section-title">Pregúntanos lo que necesites</h3>
-          <p>Llámanos al +51 999 987 321 o envíanos un mensaje a <a href="mailto:contact@yourcompany.com">info@electrostore.com</a>. También puedes escribirnos directamente. </p>
-          <form id="form" class="form-group flex-wrap">
-            <div class="form-input col-lg-12 d-flex mb-3">
-              <input type="text" name="email" placeholder="Write Your Name Here" class="form-control ps-3 me-3">
-              <input type="text" name="email" placeholder="Write Your Email Here" class="form-control ps-3">
+            <div class="col-12 pb-3">
+              <label>Correo electrónico de facturación</label>
+              <input type="text" name="email" placeholder="Email you used during checkout." class="form-control">
             </div>
-            <div class="col-lg-12 mb-3">
-              <input type="text" name="email" placeholder="Phone Number" class="form-control ps-3">
-            </div>
-            <div class="col-lg-12 mb-3">
-              <input type="text" name="email" placeholder="Write Your Subject Here" class="form-control ps-3">
-            </div>
-            <div class="col-lg-12 mb-3">
-              <textarea placeholder="Write Your Message Here" class="form-control ps-3" rows="8"></textarea>
-            </div>
-            <div class="d-grid">
-              <button class="btn btn-primary btn-lg text-uppercase btn-rounded-none">Enviar</button>
+            <div class="col-12">
+              <button type="submit" name="submit" class="btn btn-dark btn-lg w-100 text-uppercase">Seguimiento</button>
             </div>
           </form>
         </div>
       </div>
-    </div>
+    </div> 
   </section>
 
   <section class="newsletter bg-black">
     <div class="container-fluid">
       <div class="newsletter jarallax">
-        <img src="images/bg-newsletter.jpg" alt="newsletter" class="jarallax-img">
+        <img src="public/images/bg-newsletter.jpg" alt="newsletter" class="jarallax-img">
       
         <div class="row py-5 justify-content-center">
           <div class="col-md-6">
@@ -535,7 +378,7 @@
           <div class="footer-menu footer-menu-001">
             <div class="footer-intro mb-4">
               <a href="index.html">
-                <img src="images/logo.svg" alt="logo">
+                <img src="public/images/logo.svg" alt="logo">
               </a>
             </div>
             <p> Es una tienda especializada en productos electrónicos y tecnológicos de última generación. Nos dedicamos a ofrecer una amplia gama de dispositivos.</p>
@@ -603,7 +446,7 @@
                 <a href="shop-four-column-wide.html" class="item-anchor">Acerca</a>
               </li>
               <li class="menu-item">
-                <a href="blog.html" class="item-anchor">NUestros paquetes</a>
+                <a href="blog.html" class="item-anchor">Nuestros paquetes</a>
               </li>
               <li class="menu-item">
                 <a href="styles.html" class="item-anchor">Promociones</a>
