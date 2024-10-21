@@ -931,11 +931,19 @@ a {
 }
 
 .background.pattern-bg {
+<<<<<<< HEAD
   background: url(public/images/pattern-bg.png) no-repeat;
 }
 
 .background.normal-bg {
   background: url(public/images/newsletter-image.jpg) no-repeat;
+=======
+  background: url( images/pattern-bg.png) no-repeat;
+}
+
+.background.normal-bg {
+  background: url( images/newsletter-image.jpg) no-repeat;
+>>>>>>> 1e36432 (Integracion de routing y modelacion de layout con ejs y partials)
 }
 
 /* large text */

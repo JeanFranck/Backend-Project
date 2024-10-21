@@ -8,6 +8,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+<<<<<<< HEAD
 // Configurar el motor de plantillas Pug
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
@@ -38,6 +39,29 @@ app.get('/single-product', (req, res) => res.render('single-product', { title: '
 app.get('/wishlist', (req, res) => res.render('wishlist', { title: 'Lista de Deseos' }));
 
 // Iniciar el servidor
+=======
+// Configurar EJS como motor de plantillas
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
+// Middleware
+app.use(morgan('dev'));
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Importar rutas
+const homeRoutes = require('./routes/home');
+const shopRoutes = require('./routes/shop');
+const accountRoutes = require('./routes/account');
+const miscRoutes = require('./routes/misc');
+
+// Usar las rutas
+app.use('/', homeRoutes);
+app.use('/', shopRoutes);
+app.use('/', accountRoutes);
+app.use('/', miscRoutes);
+
+// Iniciar servidor
+>>>>>>> 1e36432 (Integracion de routing y modelacion de layout con ejs y partials)
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
